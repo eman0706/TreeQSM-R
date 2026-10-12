@@ -1,0 +1,18 @@
+# R
+.Rhistory
+.RData
+.Rproj.user/
+*.Rproj
+# data and large outputs (never commit point clouds or field data)
+*.las
+*.laz
+*.rds
+*.mat
+alberi_corretti*/
+alberi_*.zip
+*.xlsx
+# local logs and temporary files
+*.log
+~$*
+.DS_Store
+Thumbs.db

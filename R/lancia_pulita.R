@@ -1,0 +1,5 @@
+# Lanciare con:  Rscript --vanilla lancia_pulita.R > log_sessione_pulita.txt 2>&1   (da terminale, non dalla console di R)
+source("F:/EB/tartarino/sw python/TreeQSM_ProjectR/R/sessione_pulita.R")
+carica_libreria_pulita()
+r <- riproduci_pulita()
+print(sessionInfo())

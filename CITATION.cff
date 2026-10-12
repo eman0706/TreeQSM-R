@@ -1,0 +1,49 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below, and also cite Raumonen et al. (2013), the paper of TREEQSM."
+title: "TreeQSM-R: an R port of TREEQSM and its validation on under-canopy UAV point clouds"
+type: software
+authors:
+  - family-names: Barca
+    given-names: Emanuele
+    orcid: "https://orcid.org/0000-0001-8049-0537"
+    email: emanuele.barca@cnr.it
+  - family-names: Greco
+    given-names: Roberto
+  - family-names: Tartarino
+    given-names: Patrizia
+license: GPL-3.0-or-later
+repository-code: "https://github.com/<ACCOUNT>/<REPOSITORY>"
+version: 0.2.0
+date-released: "<YYYY-MM-DD>"
+references:
+  - type: article
+    authors:
+      - family-names: Raumonen
+        given-names: Pasi
+      - family-names: Kaasalainen
+        given-names: Mikko
+    title: "Fast Automatic Precision Tree Models from Terrestrial Laser Scanner Data"
+    journal: "Remote Sensing"
+    volume: 5
+    issue: 2
+    start: 491
+    end: 520
+    year: 2013
+    doi: 10.3390/rs5020491
+  - type: article
+    authors:
+      - family-names: Greco
+        given-names: Roberto
+      - family-names: Barca
+        given-names: Emanuele
+      - family-names: Raumonen
+        given-names: Pasi
+      - family-names: Persia
+        given-names: Manuela
+      - family-names: Tartarino
+        given-names: Patrizia
+    journal: "International Journal of Applied Earth Observation and Geoinformation"
+    volume: 122
+    start: 103426
+    year: 2023
+    doi: 10.1016/j.jag.2023.103426

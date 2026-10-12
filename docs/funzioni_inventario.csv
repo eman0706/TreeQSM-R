@@ -1,0 +1,175 @@
+funzione,raggiunta_da_treeqsm,n_definizioni,file_definizione_effettiva,tutte_le_definizioni,stato_audit
+adjustments,si,2,correzioni_sessione_oggi.R,adjustments.R | correzioni_sessione_oggi.R,V
+allometry_fn,no,1,growth_volume_correction.R,growth_volume_correction.R,
+appiattisci_inputs,no,1,correzioni_sessione_oggi.R,correzioni_sessione_oggi.R,
+arbitro_tre_vie,no,1,arbitro_tre_vie.R,arbitro_tre_vie.R,
+arricchisci_da_las,no,1,correzioni_sessione_oggi.R,correzioni_sessione_oggi.R,
+average,si,2,helpers.R,average.R | helpers.R,
+boundary_curve,no,1,boundary_curve.R,boundary_curve.R,
+boundary_curve2,no,1,boundary_curve2.R,boundary_curve2.R,
+branch_distribution,si,3,correzioni_sessione_oggi.R,tree_data_distributions.R | update_tree_data.R | correzioni_sessione_oggi.R,
+branch_order_distribution,si,3,correzioni_sessione_oggi.R,tree_data_distributions.R | update_tree_data.R | correzioni_sessione_oggi.R,
+branches,si,1,branches.R,branches.R,N
+buco_tocca_riferimenti,no,1,rileva_buchi.R,rileva_buchi.R,
+build_cover_structure,si,1,cover_sets.R,cover_sets.R,V
+calcola_pvalue_massimo,no,1,funzioni_diagnostiche_sessione.R,funzioni_diagnostiche_sessione.R,
+carica_las_xyz,no,1,estrazione_alberi.R,estrazione_alberi.R,
+cerchio_geometrico,no,1,dbh_diretto.R,dbh_diretto.R,
+change_precision,no,1,change_precision.R,change_precision.R,
+check_self_intersection,no,1,check_self_intersection.R,check_self_intersection.R,
+classifica_albero_completo_v2,no,1,classifica_albero_completo.R,classifica_albero_completo.R,
+cluster_per_distanza,no,1,filtra_alberi_vicini.R,filtra_alberi_vicini.R,
+component_classification,si,1,segments.R,segments.R,V
+compute_knn_distances,no,1,filtering.R,filtering.R,
+connected_components,no,1,connected_components.R,connected_components.R,
+correct_segments,si,1,correct_segments.R,correct_segments.R,V
+correggi_centro_nominale,no,1,arbitro_tre_vie.R,arbitro_tre_vie.R,
+correggi_dbh_rumore_interno,no,1,correggi_dbh_rumore_interno.R,correggi_dbh_rumore_interno.R,
+costruisci_variante_troncamento_p90,no,1,arbitro_tre_vie.R,arbitro_tre_vie.R,
+cover_sets,si,1,cover_sets.R,cover_sets.R,V
+create_input,no,1,create_input.R,create_input.R,
+create_prioritized_permutation,si,2,correzioni_sessione_oggi.R,cover_sets.R | correzioni_sessione_oggi.R,V
+cross_product,si,3,least_squares_fitting.R,cross_product.R | helpers.R | least_squares_fitting.R,
+cross_product_matrix,no,1,curve_based_triangulation.R,curve_based_triangulation.R,
+crown_measures,no,1,update_tree_data.R,update_tree_data.R,
+cubical_averaging,no,1,cubical_averaging.R,cubical_averaging.R,
+cubical_downsampling,no,1,cubical_downsampling.R,cubical_downsampling.R,
+cubical_partition,si,1,cubical_partition.R,cubical_partition.R,N
+cubical_partition_with_cubes,si,1,cubical_partition.R,cubical_partition.R,N
+curve_based_triangulation,no,1,curve_based_triangulation.R,curve_based_triangulation.R,
+cut_components,si,1,segments.R,segments.R,V
+cylinder_distribution,si,3,correzioni_sessione_oggi.R,tree_data_distributions.R | update_tree_data.R | correzioni_sessione_oggi.R,
+cylinder_fitting,si,1,cylinder_fitting.R,cylinder_fitting.R,V
+cylinder_height_distribution,si,3,correzioni_sessione_oggi.R,tree_data_distributions.R | update_tree_data.R | correzioni_sessione_oggi.R,
+cylinders,si,1,cylinders.R,cylinders.R,D
+dbh_cylinder,no,1,tree_data_core.R,tree_data_core.R,
+dbh_diretto,no,1,dbh_diretto.R,dbh_diretto.R,
+dbh_robusto,si,1,correzioni_sessione_oggi.R,correzioni_sessione_oggi.R,
+define_base_forb,si,1,tree_sets.R,tree_sets.R,D
+define_base_forb_with_ground,si,1,tree_sets.R,tree_sets.R,
+define_cut,si,1,segments.R,segments.R,V
+define_input,no,2,define_input.R,create_input.R | define_input.R,
+define_main_branches,si,2,tree_sets.R,define_main_branches.R | tree_sets.R,C
+define_trunk,si,1,tree_sets.R,tree_sets.R,D
+delaunay_triangulation,no,1,curve_based_triangulation.R,curve_based_triangulation.R,
+diagnostica_asse_vettoriale,no,1,funzioni_diagnostiche_sessione.R,funzioni_diagnostiche_sessione.R,
+diagnostica_biforcazione,no,1,diagnostiche_rapide_funzioni.R,diagnostiche_rapide_funzioni.R,
+diagnostica_catena_discontinua,no,1,pipeline_integrata_finale.R,pipeline_integrata_finale.R,
+diagnostica_copertura_angolare,no,1,funzioni_diagnostiche_sessione.R,funzioni_diagnostiche_sessione.R,
+diagnostica_hull_per_fascia,no,1,funzioni_diagnostiche_sessione.R,funzioni_diagnostiche_sessione.R,
+diagnostica_multicluster,no,1,funzioni_diagnostiche_sessione.R,funzioni_diagnostiche_sessione.R,
+diagnostica_rumore_interno_diretta,no,3,pipeline_unificata_dbh.R,diagnostiche_rapide_funzioni.R | pipeline_integrata_finale.R | pipeline_unificata_dbh.R,
+diagnostica_spostamento_relativo,no,1,funzioni_diagnostiche_sessione.R,funzioni_diagnostiche_sessione.R,
+diagnostica_verticalita,no,1,funzioni_diagnostiche_sessione.R,funzioni_diagnostiche_sessione.R,
+diam_las_semplice,no,1,verifica_discordanza_las.R,verifica_discordanza_las.R,
+diameter_at_height,si,1,tree_data.R,tree_data.R,
+display_time,no,1,display_time.R,display_time.R,
+display_treedata,no,1,simplify_qsm.R,simplify_qsm.R,
+distances_between_lines,si,3,correzioni_sessione_oggi.R,distances_between_lines.R | helpers.R | correzioni_sessione_oggi.R,
+distances_between_lines2,no,1,check_self_intersection.R,check_self_intersection.R,
+distances_to_line,si,2,helpers.R,distances_to_line.R | helpers.R,
+dot_product,no,1,dot_product.R,dot_product.R,
+dtm_celle,no,1,estrazione_alberi.R,estrazione_alberi.R,
+esegui_offset,no,1,confronto_estrazioni.R,confronto_estrazioni.R,
+estrai_albero,no,1,estrazione_alberi.R,estrazione_alberi.R,
+extract_one_tree,no,2,param_tuning.R,param_test.R | param_tuning.R,
+filter_layer_outliers,si,1,cylinders.R,cylinders.R,D
+filtering,no,1,filtering.R,filtering.R,
+filtra_alberi_vicini,no,1,filtra_alberi_vicini.R,filtra_alberi_vicini.R,
+filtra_rami_locali,no,1,filtra_alberi_vicini.R,filtra_alberi_vicini.R,
+filtra_rami_multimodale,no,1,filtra_rami_multimodale.R,filtra_rami_multimodale.R,
+filtro_knn_fedele,no,1,pipeline_integrata_finale.R,pipeline_integrata_finale.R,
+fit_cerchio_3d,si,1,tree_data.R,tree_data.R,
+fit_cerchio_kasa,si,1,tree_data.R,tree_data.R,
+form_rotation_matrices,si,3,correzioni_sessione_oggi.R,helpers.R | least_squares_fitting.R | correzioni_sessione_oggi.R,
+func_grad_circle_centre,si,1,least_squares_circle_centre.R,least_squares_circle_centre.R,
+func_grad_cylinder,si,3,correzioni_sessione_oggi.R,helpers.R | least_squares_fitting.R | correzioni_sessione_oggi.R,N
+generate_cover_uniform,si,1,cover_sets.R,cover_sets.R,V
+generate_cover_variable,si,1,cover_sets.R,cover_sets.R,V
+growth_volume_correction,si,2,helpers.R,growth_volume_correction.R | helpers.R,N
+hough_cerchio,no,1,dbh_diretto.R,dbh_diretto.R,
+identify_stem_chain,no,2,identify_stem_chain.R,identify_stem_chain(1).R | identify_stem_chain.R,
+initial_boundary_curve,no,1,initial_boundary_curve.R,initial_boundary_curve.R,
+interpola_centro_cluster,no,1,funzioni_diagnostiche_sessione.R,funzioni_diagnostiche_sessione.R,
+interpola_centro_tracciato,no,1,pipeline_pulizia_albero.R,pipeline_pulizia_albero.R,
+kasa_cerchio,no,1,dbh_diretto.R,dbh_diretto.R,
+least_squares_circle_centre,si,1,least_squares_circle_centre.R,least_squares_circle_centre.R,N
+least_squares_cylinder,si,3,correzioni_sessione_oggi.R,helpers.R | least_squares_fitting.R | correzioni_sessione_oggi.R,D
+least_squares_cylinder_faithful,no,1,least_squares_cylinder_faithful.R,least_squares_cylinder_faithful.R,
+load_point_cloud,no,1,create_input.R,create_input.R,
+make_tree_connected,si,2,tree_sets.R,make_tree_connected.R | tree_sets.R,N
+mat_vec_subtraction,si,1,mat_vec_subtraction.R,mat_vec_subtraction.R,
+max_rapporto_cluster,no,1,diagnostiche_rapide_funzioni.R,diagnostiche_rapide_funzioni.R,
+metriche_q,no,1,sandbox_v5_v6_funzioni.R,sandbox_v5_v6_funzioni.R,
+mk_fake,no,1,confronto_estrazioni.R,confronto_estrazioni.R,
+mk_tab,no,1,confronto_estrazioni.R,confronto_estrazioni.R,
+modello_non_degenere,no,1,correzioni_sessione_oggi.R,correzioni_sessione_oggi.R,
+modify_parent,si,1,modify_parent.R,modify_parent.R,V
+modify_topology,si,1,modify_topology.R,modify_topology.R,V
+norm_vec,si,3,norm_vec.R,helpers.R | least_squares_fitting.R | norm_vec.R,
+nostro_metodo_biforcazione,no,1,sandbox_v5_v6_funzioni.R,sandbox_v5_v6_funzioni.R,
+orthonormal_vectors,si,1,helpers.R,helpers.R,
+parent_cylinder,si,1,parent_cylinder.R,parent_cylinder.R,N
+pdist2,no,1,define_main_branches.R,define_main_branches.R,
+pipeline_con_arbitro,no,1,pipeline_con_arbitro.R,pipeline_con_arbitro.R,
+pipeline_integrata_v11,no,2,correzioni_sessione_oggi.R,pipeline_integrata_finale.R | correzioni_sessione_oggi.R,
+pipeline_pulizia_albero,no,1,pipeline_pulizia_albero.R,pipeline_pulizia_albero.R,
+pipeline_unificata_dbh,no,1,pipeline_unificata_dbh.R,pipeline_unificata_dbh.R,
+pipeline_v11_sicura_v5,no,1,sandbox_v5_v6_funzioni.R,sandbox_v5_v6_funzioni.R,
+pipeline_v11_sicura_v6,no,1,sandbox_v5_v6_funzioni.R,sandbox_v5_v6_funzioni.R,
+point_model_distance,si,1,point_model_distance.R,point_model_distance.R,N
+polyarea,no,1,curve_based_triangulation.R,curve_based_triangulation.R,
+raggio_estrazione,no,1,estrazione_alberi.R,estrazione_alberi.R,
+read_ply_vertices,no,1,create_input.R,create_input.R,
+relative_size,si,2,relative_size_simple.R,relative_size.R | relative_size_simple.R,C
+remove_small,si,1,remove_small.R,remove_small.R,V
+ricentraggio_settore,no,1,ricentraggio_settore.R,ricentraggio_settore.R,
+rileva_buchi,no,2,rileva_buchi.R,funzioni_diagnostiche_sessione.R | rileva_buchi.R,
+rileva_dispersione_anomala,no,1,funzioni_diagnostiche_sessione.R,funzioni_diagnostiche_sessione.R,
+rileva_dispersione_anomala_v2,no,1,rileva_dispersione_anomala.R,rileva_dispersione_anomala.R,
+rileva_fine_tronco_p90,no,1,arbitro_tre_vie.R,arbitro_tre_vie.R,
+rileva_fine_tronco_vero,no,1,pipeline_pulizia_albero.R,pipeline_pulizia_albero.R,
+rileva_tronchi,no,1,estrazione_alberi.R,estrazione_alberi.R,
+robust_trunk_reference,si,1,tree_data.R,tree_data.R,
+rotate_to_z_axis,si,3,correzioni_sessione_oggi.R,helpers.R | least_squares_fitting.R | correzioni_sessione_oggi.R,
+rotation_matrix,si,3,correzioni_sessione_oggi.R,helpers.R | least_squares_fitting.R | correzioni_sessione_oggi.R,
+run_treeqsm,no,2,param_tuning.R,param_test.R | param_tuning.R,
+run_v5,no,1,confronto_estrazioni.R,confronto_estrazioni.R,
+sat_uint8,no,1,relative_size.R,relative_size.R,
+save_model_text,no,1,save_model_text.R,save_model_text.R,
+screening_albero,no,1,funzioni_diagnostiche_sessione.R,funzioni_diagnostiche_sessione.R,
+search_branch_top,si,1,search_branch_top.R,search_branch_top.R,V
+search_stem_top,si,1,search_stem_top.R,search_stem_top.R,V
+sec2min,no,1,sec2min.R,sec2min.R,
+segment_direction,si,1,segment_direction.R,segment_direction.R,V
+segments,si,1,segments.R,segments.R,V
+segments_debug,no,1,segments_debug.R,segments_debug.R,
+select_cylinders,si,3,tree_data_core.R,select_cylinders.R | tree_data.R | tree_data_core.R,
+select_optimum_min_diam,no,1,select_optimum_simple.R,select_optimum_simple.R,
+select_optimum_simple,no,1,select_optimum_simple.R,select_optimum_simple.R,
+set.seed,si,2,validazione_corretta_senza_taglio.R,validazione_corretta.R | validazione_corretta_senza_taglio.R,
+simplify_qsm,no,1,simplify_qsm.R,simplify_qsm.R,
+study_components,si,1,segments.R,segments.R,V
+surface_coverage,si,2,surface_coverage.R,helpers.R | surface_coverage.R,C
+surface_coverage2,si,1,surface_coverage2.R,surface_coverage2.R,N
+surface_coverage_filtering,si,2,surface_coverage_filtering.R,helpers.R | surface_coverage_filtering.R,D
+testa_stabilita_multimodello,no,1,sandbox_v5_v6_funzioni.R,sandbox_v5_v6_funzioni.R,
+traccia_asse,no,1,estrazione_alberi.R,estrazione_alberi.R,
+traccia_centro_cluster,no,1,funzioni_diagnostiche_sessione.R,funzioni_diagnostiche_sessione.R,
+traccia_centro_iterativo,no,1,pipeline_pulizia_albero.R,pipeline_pulizia_albero.R,
+tree_data,si,1,tree_data.R,tree_data.R,D
+tree_data_core,no,1,tree_data_core.R,tree_data_core.R,
+tree_sets,si,1,tree_sets.R,tree_sets.R,V
+treeqsm,si,1,treeqsm.R,treeqsm.R,V
+trova_raggio_sicuro_multifascia,no,1,correzioni_sessione_oggi.R,correzioni_sessione_oggi.R,
+trunk_volume_profile,no,1,trunk_volume_profile.R,trunk_volume_profile.R,
+unique_elements,no,1,helpers.R,helpers.R,
+update_tree_data,no,1,update_tree_data.R,update_tree_data.R,
+update_triangulation,no,1,update_tree_data.R,update_tree_data.R,
+valida_dbh_diretto,no,1,valida_dbh_diretto.R,valida_dbh_diretto.R,
+verifica_coerenza_las,no,1,verifica_discordanza_las.R,verifica_discordanza_las.R,
+verifica_discordanza_las,no,1,verifica_discordanza_las.R,verifica_discordanza_las.R,
+verifica_estrazione,no,1,verifica_estrazione.R,verifica_estrazione.R,
+verifica_sicurezza_filtro,no,1,filtra_alberi_vicini.R,filtra_alberi_vicini.R,
+verticalcat,si,2,verticalcat.R,helpers.R | verticalcat.R,
+vol_las_approssimato,no,1,arbitro_tre_vie.R,arbitro_tre_vie.R,
