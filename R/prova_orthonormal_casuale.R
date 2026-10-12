@@ -1,3 +1,20 @@
+# This file is part of the R port of TREEQSM.
+# Original TREEQSM: Raumonen et al. (2013), distributed under the GNU General Public License, version 3 or (at your option) any later version.
+# R port: Barca, Greco, Tartarino (2026); developed with an AI assistant (see README).
+#
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with this program.  If not, see <https://www.gnu.org/licenses/>.
+
 # PROVA: quanto conta la base ortonormale casuale dell'originale?
 # L'originale (orthonormal_vectors.m) parte da un vettore casuale rand(3,1); il porting parte da un vettore di riferimento fisso. La base ortonormale fissa l'origine angolare
 # della griglia di settori della copertura di superficie (surface_coverage). Questa prova sostituisce, nella sessione pulita, orthonormal_vectors con una versione che parte da un

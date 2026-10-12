@@ -1,3 +1,20 @@
+# This file is part of the R port of TREEQSM.
+# Original TREEQSM: Raumonen et al. (2013), distributed under the GNU General Public License, version 3 or (at your option) any later version.
+# R port: Barca, Greco, Tartarino (2026); developed with an AI assistant (see README).
+#
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with this program.  If not, see <https://www.gnu.org/licenses/>.
+
 # VARIABILITA' DEI RISULTATI CON LA BASE ORTONORMALE CASUALE (come nell'originale, che usa rand(3,1) in orthonormal_vectors.m)
 # Ripete K volte la corsa di alcuni alberi (seed 0, 8 modelli per albero) con realizzazioni diverse del vettore di partenza pseudo-casuale, che NON tocca il generatore di numeri casuali di R,
 # e riassume, per albero, la variazione tra realizzazioni della mediana dei modelli: deviazione standard e coefficiente di variazione (CV) di DBHcyl ufficiale, volume 1.3-4.0 m, 0-4 m, 0-8 m e fusto intero.

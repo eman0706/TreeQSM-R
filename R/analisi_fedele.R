@@ -1,3 +1,20 @@
+# This file is part of the R port of TREEQSM.
+# Original TREEQSM: Raumonen et al. (2013), distributed under the GNU General Public License, version 3 or (at your option) any later version.
+# R port: Barca, Greco, Tartarino (2026); developed with an AI assistant (see README).
+#
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with this program.  If not, see <https://www.gnu.org/licenses/>.
+
 # ANALISI DELLE CORSE FEDELI: DBHcyl del QSM (base fedele + Gauss-Newton), tre seed, entrambe le nuvole, contro il campo, contro la procedura di Greco et al.
 # e contro il porting di produzione precedente (modelli_quote_vol.rds). Nessuna casualita': solo lettura dei file; il bootstrap usa set.seed(1).
 # PREVISIONI SCRITTE PRIMA: P_R1 mediana |errore| del DBHcyl fedele tra 3.0% e 4.2% su entrambe le nuvole; P_R2 il QSM fedele non e' piu' accurato della procedura
