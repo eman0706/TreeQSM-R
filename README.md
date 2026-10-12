@@ -20,9 +20,13 @@ together with the code used to validate it on under-canopy UAV structure-from-mo
 | `R/` | the library (files that define the functions reached by `treeqsm()`), the faithful versions `define_base_forb_fedele` (in `prova_tree_sets_fedele.R`) and `least_squares_cylinder_fedele.R`, the clean-session loader `sessione_pulita.R`, and the analysis scripts of the paper |
 | `octave/` | driver that runs the **unmodified** original TreeQSM in GNU Octave on the extracted trees, plus diagnostic scripts used to compare stages of the two programs |
 | `python/` | auxiliary analyses in Python (solver comparison, direct estimator, call graph); paths must be adapted |
-| `docs/` | annotated call tree, inventory of the functions, manifest of the validated library (function, defining file, md5), `sessionInfo.txt` |
+| `docs/` | `GLOSSARY.md` (English guide to the scripts), annotated call tree, inventory of the functions, manifest of the validated library (function, defining file, md5), `sessionInfo.txt` |
 
 The point clouds, the field measurements and the per-tree results of other authors are **not** included: they belong to R. Greco and P. Tartarino and are available from them on reasonable request.
+
+## Language note
+
+The names of the original TREEQSM functions are in English, as in MATLAB. The analysis and validation scripts, their function names and the messages printed to the console are in **Italian**, and were left unchanged on purpose, because the state tagged `v0.2.0-submission` is the one validated in the paper. `docs/GLOSSARY.md` lists every script, its main function and what it does, in English.
 
 ## Requirements
 
