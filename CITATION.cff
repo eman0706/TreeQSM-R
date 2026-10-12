@@ -12,9 +12,14 @@ authors:
   - family-names: Tartarino
     given-names: Patrizia
 license: GPL-3.0-or-later
-repository-code: "https://github.com/<ACCOUNT>/<REPOSITORY>"
-version: 0.2.0
-date-released: "<YYYY-MM-DD>"
+repository-code: "https://github.com/eman0706/TreeQSM-R"
+doi: 10.5281/zenodo.23319611
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.23319612
+    description: "Version v0.2.0-submission (state used for the results of the paper)"
+version: v0.2.0-submission
+date-released: "2026-10-12"
 references:
   - type: article
     authors:

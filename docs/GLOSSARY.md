@@ -46,7 +46,7 @@ Frequent words in the identifiers: *albero* = tree, *alberi* = trees, *nuvola* =
 | `octave/diagnosi_stadi_octave.m`, `profilo_fusto_octave.m`, `strati_radice_octave.m`, `confronta_fit_radice_octave.m` | Counterparts in Octave of the diagnostic scripts in R. |
 | `octave/GUIDA_OCTAVE.md` | Guide (in Italian) to the comparison with Octave. |
 | `python/` | Auxiliary analyses: solver comparison, direct estimator, call graph. Paths must be adapted. |
-| `docs/INTESTAZIONE_GPL.txt` | GPL notice added at the top of the R files (`add_gpl_headers.R`). |
+| `docs/INTESTAZIONE_GPL.txt` | GPL notice added at the top of the R files. |
 | `docs/funzioni_inventario.csv`, `albero_chiamate.*` | Inventory of the functions and call tree of `treeqsm`. |
 | `docs/manifesto_validato.csv`, `file_md5.txt`, `sessionInfo.txt` | Manifest of the validated library (function, defining file, md5 of the body), md5 of the files, session information. |
 

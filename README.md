@@ -1,5 +1,7 @@
 # TreeQSM-R
 
+[![DOI](https://zenodo.org/badge/1415335707.svg)](https://doi.org/10.5281/zenodo.23319611)
+
 An R port of **TREEQSM** (Raumonen et al., 2013; original MATLAB code at https://github.com/InverseTampere/TreeQSM), the toolbox that builds quantitative structure models (QSMs) of trees from point clouds,
 together with the code used to validate it on under-canopy UAV structure-from-motion point clouds of a Mediterranean Aleppo pine stand.
 
@@ -70,4 +72,4 @@ Released under the **GNU General Public License, version 3 or later**, as the MA
 
 ## Citation
 
-See `CITATION.cff`. If you use this code, please also cite Raumonen et al. (2013), *Remote Sensing* 5(2), 491-520, doi:10.3390/rs5020491, and Greco et al. (2023), *Int. J. Appl. Earth Obs. Geoinf.* 122, 103426, doi:10.1016/j.jag.2023.103426.
+Archived on Zenodo: all versions https://doi.org/10.5281/zenodo.23319611; version `v0.2.0-submission` (used for the paper) https://doi.org/10.5281/zenodo.23319612. See `CITATION.cff`. If you use this code, please also cite Raumonen et al. (2013), *Remote Sensing* 5(2), 491-520, doi:10.3390/rs5020491, and Greco et al. (2023), *Int. J. Appl. Earth Obs. Geoinf.* 122, 103426, doi:10.1016/j.jag.2023.103426.
